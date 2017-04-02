@@ -15,10 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SendCard" android:parentActivityName=".TitleScreen"></activity>
-        <activity android:name=".Connections" android:parentActivityName=".TitleScreen"></activity>
-        <activity android:name=".ReceiveCard" android:parentActivityName=".TitleScreen"></activity>
-        <activity android:name=".EditCards" android:parentActivityName=".TitleScreen" ></activity>
+        <activity
+            android:name=".SendCard"
+            android:parentActivityName=".TitleScreen" />
+        <activity
+            android:name=".Connections"
+            android:parentActivityName=".TitleScreen" />
+        <activity
+            android:name=".ReceiveCard"
+            android:parentActivityName=".TitleScreen" />
+        <activity
+            android:name=".EditCards"
+            android:parentActivityName=".TitleScreen" />
+        <activity android:name=".FillCardActivity" android:parentActivityName=".EditCards"></activity>
     </application>
 
 </manifest>
