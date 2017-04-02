@@ -3,7 +3,11 @@ package lahacks2017.cardme;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.View;
+=======
+
+>>>>>>> refs/remotes/origin/localFiles
 
 public class TitleScreen extends AppCompatActivity {
 
@@ -13,6 +17,7 @@ public class TitleScreen extends AppCompatActivity {
         setContentView(R.layout.activity_title_screen);
     }
 
+<<<<<<< HEAD
     public void sendCard(View view){
         //response to button
         Intent intent = new Intent(this, SendCard.class);
@@ -35,5 +40,8 @@ public class TitleScreen extends AppCompatActivity {
         //response to button
         Intent intent = new Intent(this, ReceiveCard.class);
         startActivity(intent);
+=======
+
+>>>>>>> refs/remotes/origin/localFiles
     }
 }
