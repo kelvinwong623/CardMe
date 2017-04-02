@@ -27,7 +27,11 @@
         <activity
             android:name=".EditCards"
             android:parentActivityName=".TitleScreen" />
-        <activity android:name=".FillCardActivity" android:parentActivityName=".EditCards"></activity>
+        <activity
+            android:name=".FillCardActivity"
+            android:parentActivityName=".EditCards" />
+        <activity android:name=".Visible"/>
+        <activity android:name=".ReceivedConfirmation" android:parentActivityName=".ReceiveCard"></activity>
     </application>
 
 </manifest>
