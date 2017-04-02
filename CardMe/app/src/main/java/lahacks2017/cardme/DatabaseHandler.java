@@ -18,7 +18,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "contactsManager.db";
+    private static final String DATABASE_NAME = "myContactsManager.db";
+    private static final String DATABASE_NAME0 = "myContactsManager.db";
 
     // Contacts table name
     private static final String TABLE_CONTACTS = "contacts";
@@ -29,8 +30,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final String KEY_PH_NO = "phone_number";
     private static final String KEY_EMAIL = "email";
 
-    public DatabaseHandler(Context context) {
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+    public DatabaseHandler(Context context, String dbName) {
+        super(context, dbName + ".db", null, DATABASE_VERSION);
     }
 
     // Creating Tables
@@ -97,6 +98,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 contact.setID(Integer.parseInt(cursor.getString(0)));
                 contact.setName(cursor.getString(1));
                 contact.setPhoneNumber(cursor.getString(2));
+                contact.setEmail(cursor.getString(3));
                 // Adding contact to list
                 contactList.add(contact);
             } while (cursor.moveToNext());

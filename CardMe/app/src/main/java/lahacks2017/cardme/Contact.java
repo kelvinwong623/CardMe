@@ -1,5 +1,7 @@
 package lahacks2017.cardme;
 
+import android.util.Log;
+
 public class Contact {
 
     //private variables
@@ -33,6 +35,8 @@ public class Contact {
         this._name = name;
         this._phone_number = _phone_number;
         this._email = _email;
+
+        Log.d("Email: ", this._email);
     }
     // getting ID
     public int getID(){
@@ -65,7 +69,7 @@ public class Contact {
     }
 
     public String getEmail() {
-        return _email;
+        return this._email;
     }
 
     public void setEmail(String _email) {
