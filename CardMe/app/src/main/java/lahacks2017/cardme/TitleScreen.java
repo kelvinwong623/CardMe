@@ -15,7 +15,7 @@ public class TitleScreen extends AppCompatActivity {
 
     public void sendCard(View view){
         //response to button
-        Intent intent = new Intent(this, SendCard.class);
+        Intent intent = new Intent(this, SentConfirmation.class); // FIXME: Should land on SendCard.class
         startActivity(intent);
     }
 

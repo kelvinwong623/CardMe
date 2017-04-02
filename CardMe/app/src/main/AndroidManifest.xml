@@ -30,8 +30,11 @@
         <activity
             android:name=".FillCardActivity"
             android:parentActivityName=".EditCards" />
-        <activity android:name=".Visible"/>
-        <activity android:name=".ReceivedConfirmation" android:parentActivityName=".ReceiveCard"></activity>
+        <activity android:name=".Visible" />
+        <activity
+            android:name=".ReceivedConfirmation"
+            android:parentActivityName=".ReceiveCard" />
+        <activity android:name=".SentConfirmation"></activity>
     </application>
 
 </manifest>
