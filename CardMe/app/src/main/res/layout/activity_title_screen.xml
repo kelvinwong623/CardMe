@@ -10,11 +10,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lahacks2017.cardme.TitleScreen">
 
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/testButton" />
 </RelativeLayout>
