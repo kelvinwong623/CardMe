@@ -15,9 +15,9 @@ public class TitleScreen extends AppCompatActivity {
 
         DatabaseHandler db = new DatabaseHandler(this);
 
-        /**
+       /* *//**
          * CRUD Operations
-         * */
+         * *//*
         // Inserting Contacts
         Log.d("Insert: ", "Inserting ..");
         db.addContact(new Contact("Ravi", "9100000000", "ravi@gmail"));
@@ -36,6 +36,6 @@ public class TitleScreen extends AppCompatActivity {
             // Writing Contacts to log
             Log.d("Name: ", log);
             //db.deleteContact(cn);
-        }
+        }*/
     }
 }
