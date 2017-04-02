@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CardMe</string>
     <string name="button_1">Edit Your Cards</string>
-    <string name="button_2">Received Cards</string>
+    <string name="button_2">Connections</string>
     <string name="button_3">Send Card</string>
     <string name="button_4">Receive Card</string>
     <string name="button1">Edit My Cards</string>
